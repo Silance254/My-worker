@@ -1,0 +1,150 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+        content="width=device-width,
+                 initial-scale=1.0">  
+  <style type="text/css">
+    .card-title{
+      color: purple;
+      background-color: grey;
+    }
+    #im{
+      background-color: darkblue;
+      color: white;
+      font-style: italic;
+    }
+    #mq{
+      background-color: pink;
+      color: blue;
+    }
+    h2{
+    
+      color:darkblue; 
+    }
+    .kadi{
+      height: 500px;
+    }
+
+..topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  </style>
+	<title>Car Models</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+<center>
+  <h1 class="text-primary" id="im">Transparency Matters</h1>
+  </center>
+  <marquee id="mq">Easy steps and become a worker now!!</marquee>
+  
+  <center><h2>Your Satisfaction, Our Concern.</h2></center>
+<fieldset class="container">
+  <div class="jumbotron">
+  <center>
+<form action="sendworker.php" method="post">
+    
+    <fieldset style="background-color:lightblue;">
+      <legend><b><u><i>Enter your details:</i></u></b></legend>
+  <label for="idNum">ID Number:</label>
+  <input type="number" id="idNum" name="idNum" placeholder="Enter your full names">
+  <br><br>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your full names">
+  <br><br>
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select>
+  <br><br>
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" placeholder="Enter age">
+  <br><br>
+  <label for="phone">Phone Number:</label>
+  <input type="number" id="phone" name="phone" placeholder="Enter your phone number">
+  <br><br>
+  <label for="fldCounty">County:</label>
+  <select id="fldCounty" name="fldCounty">
+    <option value="EMC">EMC</option>
+    <option value="Nakuru">Nakuru</option>
+    <option value="Nairobi">Nairobi</option>
+    <option value="Turkana">Turkana</option>
+    <option value="Mombasa">Mombasa</option>
+  </select>
+  <br><br>
+  <label for="current">Location:</label>
+  <input type="text" id="current" name="current" placeholder="Enter your current place">
+  <br><br>
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address" placeholder="Enter your address">
+  <br><br>
+  <label for="levelEducation">Level of Education:</label>
+  <select id="levelEducation" name="levelEducation">
+    <option value="N/A">N/A</option>
+    <option value="Primary">Primary</option>
+    <option value="Secondary">Secondary</option>
+    <option value="University">University</option>
+    <option value="College">Collage</option>
+  </select>
+  <br>
+  <fieldset style="background-color:lightgrey;">
+      <legend><b><u>Witness:</u></b></legend><br>
+    <label for="witname">Name:</label>
+  <input type="text" id="witname" name="witname" placeholder="Enter full names"><br><br>
+  <label for="witphone">Phone Number:</label>
+  <input type="number" id="witphone" name="witphone" placeholder="Enter phone number"><br><br>
+  <label for="loc">Current Location:</label>
+  <input type="text" id="loc" name="loc" placeholder="Enter current place">
+  <br><br>
+  </fieldset>
+  <br>
+  <input type="checkbox" name="terms">
+            I agree to the terms and conditions
+  <br><br>
+  <input type="submit" name="Submit" id="Submit" value="Submit">
+  <br><br>
+    <b><a class="" href="login.php" style="color: blue;">BACK</a></b>
+    <button type="reset"  class="btn-btn-warning" name="reset" style="color:darkblue"><b>RESET</b></button>
+   </center>
+  <footer style="background-color: blanchedalmond;">
+   <center><h3>Contact us:</h3> 0758313512 or 0722960572 <br>
+             Email: cillerkibz05@gmail.com</center>
+  <center><h3>Find us on:</h3>
+        Follow us on:
+        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiy2b_MmKLgAhWBC9MKHQWFA_MYABAAGgJ3Yg&ohost=www.google.com&cid=CAASE-RoHkVC68IPKw4hIq7558cW3x0&sig=AOD64_2h5K8Osc7pfBI06mChFeE_f8o2gA&q=&ved=2ahUKEwjGyrvMmKLgAhXK2OAKHWtxBQMQ0Qx6BAgMEAE&adurl="><img src="images/fb.png" width="30px" height="30px"></a>   
+
+       <a href="https://www.messenger.com/login.php"><img src="images/messenger.png" width="30px" height="30px">
+         </a> 
+
+        <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="images/snapchat.png" width="24px" height="24px">
+</a>
+
+         <a href="https://www.whatsapp.com/"><img src="images/whatsapp.png" width="24px" height="24px"></a>
+        <h3>All rights reserved.</h3></center>
+        <center>
+          <span style="color:solid black;">
+            <strong>Developed by:  sila Kibet</strong>
+          </span>
+        </center>
+              
+</footer>
+</fieldset>
+		</fieldset>
+<br>
+</footer>
+</form>
+</body>
+</html>

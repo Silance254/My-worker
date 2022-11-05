@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" 
+	      content="width=device-width,
+	               initial-scale=1.0">  
+	<style type="text/css">
+		a:hover{color:red !important;
+		}
+		#skip{background-image:url(images/mboch2.jpg);
+      background-size: cover;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			padding: 20%;
+
+		}
+		#im{
+      background-color: purple;
+      color: white;
+      font-style: italic;
+    }
+    #mq{
+      background-color: pink;
+      color: blue;
+    }
+    
+    h2{
+    	text-shadow: 0 0 9px #0000A0;
+    	color:pink;	
+    }
+    .topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+	</style>
+	<title>Home</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <? php include(sendemployer.php) echo?>
+</head>
+<body>
+  <center><h1 class="text-primary" id="im">Matters Transparency</h1>
+  
+  <marquee id="mq">Easy steps and become an employer now!!</marquee>
+</center>
+<center>
+<fieldset class="container" style="background-color:lightblue;">
+  <div class="jumbotron">
+<h3>Employer Details:</h3>
+<form action="sendemployer.php" method="post">
+		<label for="idNum">ID Number:</label>
+    <input type="number" id="idNum" name="idNum" placeholder="Enter your national ID number"><br><br>
+  <label for="fldName">Name:</label>
+  <input type="text" id="fldName" name="fldName" placeholder="Enter your full names"><br><br>
+   <label for="fldAge">Age:</label>
+  <input type="number" id="fldAge" name="fldAge" placeholder="Enter your age">
+  <br><br>
+  <label for="fldGender">Gender:</label>
+  <select id="fldGender" name="fldGender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select><br><br>
+  <label for="phoneNum">Phone Number:</label>
+  <input type="number" id="phoneNum" name="phoneNum" placeholder="Enter your phone number"><br><br>
+  <label for="fldCounty">County:</label>
+  <select id="fldCounty" name="fldCounty">
+    <option value="EMC">EMC</option>
+    <option value="Nakuru">Nakuru</option>
+    <option value="Nairobi">Nairobi</option>
+    <option value="Turkana">Turkana</option>
+    <option value="Mombasa">Mombasa</option>
+  </select><br><br>
+  <label for="fldLocation">Location:</label>
+  <input type="text" id="fldLocation" name="fldLocation" placeholder="Enter your current place">
+  <br><br>
+  <label for="fldAddress">Address:</label>
+  <input type="text" id="fldAddress" name="fldAddress" placeholder="Enter your address">
+  <br><br>
+  <label for="fldOccupation">Occupation:</label>
+  <input type="text" id="fldOccupation" name="fldOccupation" placeholder="Enter your occupation">
+   <fieldset style="background-color:lightgrey;">
+       <legend><b><u>Witness:</u></b></legend><br>
+    <label for="witName">Witness Name:</label>
+  <input type="text" id="witName" placeholder="Enter full names" name="witName"><br><br>
+  <label for="witPhone">Witness Phone:</label>
+  <input type="number" id="witPhone" name="witPhone" placeholder="Enter phone number"><br><br>
+  <label for="witLocation">Witness Location:</label>
+  <input type="text" id="witLocation" name="witLocation" placeholder="Enter current place"><br><br>
+  </fieldset>
+            <input type="checkbox" name="terms">
+            I agree to the terms and conditions
+            <br><br>
+            <input type="submit" name="Submit" class="btn-btn-warning" value="Submit"><br>
+    <br>
+    <b><a class="" href="login.php" style="color: blue;">BACK</a></b>
+
+    <button type="reset"  class="btn-btn-warning" name="reset" style="color:darkblue"><b>RESET</b></button>
+    
+</fieldset>
+</center>
+</form>
+  <footer style="background-color: blanchedalmond;">
+   <center><h3>Contact us:</h3> 0758313512 or 0722960572 <br>
+             Email: cillerkibz05@gmail.com</center>
+  <center><h3>Find us on:</h3>
+        Follow us on:
+        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiy2b_MmKLgAhWBC9MKHQWFA_MYABAAGgJ3Yg&ohost=www.google.com&cid=CAASE-RoHkVC68IPKw4hIq7558cW3x0&sig=AOD64_2h5K8Osc7pfBI06mChFeE_f8o2gA&q=&ved=2ahUKEwjGyrvMmKLgAhXK2OAKHWtxBQMQ0Qx6BAgMEAE&adurl="><img src="images/fb.png" width="30px" height="30px"></a>   
+
+       <a href="https://www.messenger.com/login.php"><img src="images/messenger.png" width="30px" height="30px">
+         </a> 
+
+        <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="images/snapchat.png" width="24px" height="24px">
+</a>
+
+         <a href="https://www.whatsapp.com/"><img src="images/whatsapp.png" width="24px" height="24px"></a>
+        <h3>All rights reserved.</h3></center>
+        <center>
+          <span style="color:solid black;">
+            <strong>Developed by:  sila Kibet</strong>
+          </span>
+        </center>
+              
+</footer>
+</body>
+</html>
